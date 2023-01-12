@@ -1,1 +1,1 @@
-## python TIL
+## python TIL 폴더
