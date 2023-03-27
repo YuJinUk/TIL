@@ -1,0 +1,106 @@
+{
+  "files.autoSave": "onFocusChange",
+  "git.enableSmartCommit": true,
+  "editor.renderWhitespace": "all",
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  
+  
+  // indentation
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+
+
+  // python
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true
+  },
+  "python.languageServer": "Jedi",
+
+
+  // terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  // C
+  // "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin/gcc.exe",
+  // "security.workspace.trust.untrustedFiles": "open",
+  // COLOR THEME
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#267862"
+  },
+  "editor.tokenColorCustomizations": {
+    "[Community Material Theme High Contrast]": {
+      "textMateRules": [
+        {
+    //       "scope": [
+    //         "comment.line.number-sign.python",
+    //         "comment.line.double-slash.java",
+    //         "string.quoted.docstring.multi.python"
+    //       ],
+    //       "settings": {
+    //         "foreground": "#267862",
+    //         // "fontStyle": "italic"
+    //       },
+        // },
+        // {
+          // "scope": [
+          //   "keyword.control.flow.python",
+          //   "keyword.control.java",
+          // ],
+          "settings": {
+            "foreground": "#e60cea",
+            // "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "storage.type.primitive.java",
+            "storage.type.primitive.array.java",
+          ],
+          "settings": {
+            "foreground": "#1fd4a4",
+            "fontStyle": "italic"
+          }
+        }
+        // {
+        //     "scope": [
+        //         "entity.name.function.java",
+        //         "entity.name.function"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#2557b5",
+        //         "fontStyle": "bold"
+        //     }
+        // }
+      ]
+    },
+//     "editor.minimap.enabled": false,
+//   // "indentRainbow.colors": [
+//   //   "rgba(255,255,64,0.05)",
+//   //   "rgba(127,255,127,0.05)",
+//   //   "rgba(255,127,255,0.05)",
+//   //   "rgba(79,236,236,0.05)"
+//   // ],
+//   "git.openRepositoryInParentFolders": "always",
+//   "workbench.colorTheme": "Community Material Theme High Contrast",
+//   "window.zoomLevel": 1,
+  },
+  // Django
+  "files.associations": {
+    "**/*.html": "html",
+	    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+},
+"workbench.editorAssociations": {
+    "*.sqlite3": "default"
+}
+
+}
